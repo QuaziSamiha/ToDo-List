@@ -1,0 +1,47 @@
+.todo_app {
+    height: 400px;
+    width: auto;
+    background-color: lightgreen;
+    padding: 30px 15px;
+    border-radius: 20px;
+    /* overflow-y: scroll; */
+}
+
+.todo_app h2 {
+    text-align: center;
+    font-family: cursive;
+    color: tomato;
+    text-transform: uppercase;
+    font-size: 40px;
+    text-shadow: 5px 3px 3px sandybrown;
+    margin-bottom: 30px;
+}
+
+.todo_app input {
+    background-color: transparent;
+    color: darkslategray;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 10px;
+    border: none;
+    border-bottom: 1px solid darkslategray;
+    outline: none;
+}
+
+.add_btn {
+    background-color: green;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.add_btn:hover{
+    background-color: limegreen;
+}
+
+.task_list{
+    list-style: none;
+    color: rgb(5, 44, 83);
+    font-size: 18px;
+    font-family: cursive;
+    margin-left: 10px;
+}
